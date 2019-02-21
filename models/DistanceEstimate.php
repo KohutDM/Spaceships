@@ -33,7 +33,7 @@ class DistanceEstimate
             //echo $ship->getFuel()."</br>";
 
         array_shift($s_array);
-            echo $ship->getDistance_one()."</br>";
+            //echo $ship->getDistance_one()."</br>";
         $distance += $ship->getDistance_one();
         $key++;
         }
